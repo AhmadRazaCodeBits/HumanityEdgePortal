@@ -1,0 +1,132 @@
+/* General styling for the admin video page */
+.admin-video {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #4caf50; /* Green for success message */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+input[type="file"],
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Grid container for video cards */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+/* Individual video card styling */
+.video-card {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-card h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem;
+}
+
+.video-card p {
+  margin: 0.5rem;
+  color: #555;
+}
+
+.video-card button {
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.video-card button:hover {
+  background-color: #c53030;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .admin-video {
+    padding: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  input[type="text"],
+  select,
+  input[type="file"],
+  button {
+    font-size: 0.875rem;
+  }
+
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  form {
+    gap: 0.5rem;
+  }
+
+  input[type="text"],
+  select,
+  input[type="file"],
+  button {
+    font-size: 0.75rem;
+    padding: 0.25rem;
+  }
+}

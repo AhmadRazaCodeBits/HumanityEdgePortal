@@ -1,0 +1,92 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #70b9e6;
+  border-bottom: 1px solid #ddd;
+}
+
+.EmailStatic, .phone-button {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.EmailStatic button, .phone-button button {
+  background: none;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.Link a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.Link a:hover {
+  text-decoration: underline;
+}
+
+.Container_right {
+  display: flex;
+  align-items: center;
+}
+
+.SocialMediaIcons {
+  display: flex;
+  align-items: center;
+}
+
+.SocialMediaIcons a, .EmailStatic button, .phone-button button {
+  margin: 0 10px;
+  color: #000;
+  margin-left: 20px;
+}
+
+.SocialMediaIcons a:hover, .EmailStatic button:hover, .phone-button button:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Responsive behavior */
+@media (max-width: 870px) {
+  .Container {
+    justify-content: center;
+  }
+
+  .EmailStatic .Link, .phone-button .Link {
+    display: none;
+  }
+
+  .Container_right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .SocialMediaIcons a, .EmailStatic button, .phone-button button {
+    margin: 0 5px;
+    margin-left: 30px;
+  
+  }
+}
+
+@media (max-width: 480px) {
+  .SocialMediaIcons a, .EmailStatic button, .phone-button button {
+    margin: 0 3px;
+    margin-left: 20px;
+  }
+}

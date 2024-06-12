@@ -1,0 +1,9 @@
+.BAnnerimage{
+    width: 100%; /* Ensure the image fills its container */
+    height: 600px;
+    display: flex;
+}
+.BAnnerimage img{
+    width: 100%; /* Ensure the image fills its container */
+    display: flex;
+}

@@ -1,0 +1,35 @@
+/* Aboutfiled.css */
+
+/* Container for the About section */
+.Aboutfiled {
+    margin: 50px;
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow flex items to wrap to next line if necessary */
+  }
+  
+  /* Style for the h1 element */
+  .Aboutfiled h1 {
+    width: 100%; /* Make the h1 element take up the full width */
+    margin-top: 0; /* Remove top margin */
+    margin-left: 15px;
+  }
+  
+  /* Style for the p element */
+  .Aboutfiled p {
+    text-align: left;
+    font-size: x-large;
+    width: 50%; /* Make the p element take up 50% of the container width */
+    float: left; /* Float the p element to the left */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    padding: 0 20px; /* Add padding for spacing */
+  }
+  
+  .Aboutfiled img {
+    width: 50%; /* Make the img element take up 50% of the container width */
+    float: right; /* Float the img element to the right */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    padding: 0 20px; /* Add padding for spacing */
+    max-height: 300px; /* Set maximum height for the image */
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  

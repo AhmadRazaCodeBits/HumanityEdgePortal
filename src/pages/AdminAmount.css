@@ -1,0 +1,33 @@
+.admin-amount-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-amount-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-amount-container p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.chart-container {
+  position: relative;
+  margin: 0 auto;
+  height: 300px; /* Adjust height for a smaller chart */
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-container {
+    height: 200px; /* Adjust height for mobile screens */
+  }
+}

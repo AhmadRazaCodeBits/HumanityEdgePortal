@@ -1,0 +1,42 @@
+.campaign-container, .admin-campaign-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  .campaign-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .campaign-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .campaign-card h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .campaign-card p {
+    margin: 5px 0;
+  }
+  
+  .campaign-card button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .campaign-card button:hover {
+    background-color: #0056b3;
+  }
+  

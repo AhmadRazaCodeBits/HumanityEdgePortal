@@ -1,0 +1,10 @@
+.admin-user {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 200px; /* Adjust according to the sidebar width */
+    padding: 1rem;
+    flex: 1;
+  }
+  

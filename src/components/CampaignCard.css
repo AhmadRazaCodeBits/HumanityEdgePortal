@@ -1,0 +1,84 @@
+/* CampaignCard.css */
+
+.campaign-card {
+    max-width: 20rem; /* 320px */
+    border-radius: 0.25rem; /* 4px */
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin: 1rem; /* 16px */
+    transition: transform 0.2s ease;
+  }
+  
+  .campaign-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .campaign-image {
+    width: 400px;
+    height: 500px;
+
+  }
+  .campaign-image img {
+    width: 400px;
+    height: 500px;
+  }
+  .campaign-details {
+    padding: 1.5rem; /* 24px */
+  }
+  
+  .campaign-title {
+    font-weight: bold;
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+    margin-bottom: 0.5rem; /* 8px */
+  }
+  
+  .campaign-description {
+    color: #4a5568;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    margin-bottom: 1rem; /* 16px */
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px; /* 0.625rem */
+    background-color: #edf2f7;
+    border-radius: 9999px; /* Large number for rounded full */
+    margin-bottom: 1rem; /* 16px */
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #3182ce;
+    border-radius: 9999px; /* Large number for rounded full */
+  }
+  
+  .campaign-info {
+    color: #4a5568;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    margin-bottom: 0.5rem; /* 8px */
+  }
+  
+  .donate-button {
+    text-align: center;
+    padding: 1rem; /* 16px */
+  }
+  
+  .donate-btn {
+    background-color: #e53e3e;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 9999px; /* Large number for rounded full */
+    padding: 0.5rem 1rem; /* 8px 16px */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-btn:hover {
+    background-color: #c53030;
+  }
+  

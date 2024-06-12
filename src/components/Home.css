@@ -1,0 +1,17 @@
+
+
+.HeroImage {
+    margin-top: 150px;
+    width: 100%; /* Adjust width as needed */
+    height: 400px;/* Establish positioning context for absolute positioning */
+    background-color: black;
+    object-fit: cover;
+}
+
+.HeroImage img {
+    width: 100%; /* Make the image fill the entire width of the parent div */
+    height: 400px; /* Maintain aspect ratio */
+    object-fit: fill;
+
+ 
+}
